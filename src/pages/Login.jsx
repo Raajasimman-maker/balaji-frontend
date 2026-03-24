@@ -4,8 +4,8 @@ import { AuthContext } from '../context/AuthContext';
 import api from '../utils/api';
 
 const Login = () => {
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
+  const [email, setEmail] = useState('sjc@gmail.com');
+  const [password, setPassword] = useState('sjc@balaji');
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
   
